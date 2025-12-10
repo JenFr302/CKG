@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World</title>
+    <link rel="stylesheet" href="world.css">
+</head>
+<body>
+    <header>
+        <h1>The World</h1>
+    </header>
+
+    <nav>
+        <a href="index.html"><strong>index</strong></a>
+        <a href="items.html"><strong>Items</strong></a>
+        <a href="enemies.html"><strong>Enemies</strong></a>
+    </nav>
+
+    <div class="layout">
+
+        <aside id="sidebar">
+            <div id="table_of_contents">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#general">General</a></li>
+                        <ul>
+                            <li><a href="#the-world-core">The World Core</a></li>
+                            <li><a href="#core-keeper-worlds">Core Keeper Worlds</a></li>
+                        </ul>
+                    <li><a href="#biomes">Biomes</a></li>
+                         <ul>
+                            <li><a href="#the-undergrounds">The Undergrounds</a></li>
+                                <ul>
+                                    <li><a href="#major-blocks1">Major Blocks</a></li>
+                                    <li><a href="#enemies1">Enemies</a></li>
+                                </ul>
+                            <li><a href="#the-clay-caves">The Clay Caves</a></li>
+                                <ul>
+                                    <li><a href="#major-blocks2">Major Blocks</a></li>
+                                    <li><a href="#enemies2">Enemies</a></li>
+                                </ul>
+                            <li><a href="#the-forgotten-ruins">The Forgotten-Ruins</a></li>
+                                  <ul>
+                                    <li><a href="#major-blocks3">Major Blocks</a></li>
+                                    <li><a href="#enemies3">Enemies</a></li>
+                                </ul>
+                            <li><a href="#azeos-wilderness">Azeos' Wilderness</a></li>
+                                  <ul>
+                                    <li><a href="#major-blocks4">Major Blocks</a></li>
+                                    <li><a href="#enemies4">Enemies</a></li>
+                                </ul>
+                            <li><a href="#the-sunken-sea">The Sunken Sea</a></li>
+                                  <ul>
+                                    <li><a href="#major-blocks5">Major Blocks</a></li>
+                                    <li><a href="#enemies5">Enemies</a></li>
+                                </ul>
+                            <li><a href="#the-desert-of-beginnings">The Desert of Beginnings</a></li>
+                                  <ul>
+                                    <li><a href="#major-blocks6">Major Blocks</a></li>
+                                    <li><a href="#enemies6">Enemies</a></li>
+                                </ul>
+                        </ul>
+                    <li><a href="#scenes">Scenes</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main>
+            <div>
+                <h2 id="introduction"><u>Introduction</u></h2>
+                <p>The world is where all of Core Keeper's gameplay takes place.</p>
+                <p>Each world is procedurally generated, but the structure always starts with the Core at the center and increasingly dangerous regions radiating outward. As you dig away from the starting cavern, the environment shifts into distinct biomes with unique tiles, lighting, resources, enemies, and hazards.</p>
+                <p>Mixed into this random layout are handcrafted “scenes” such as ruins, dungeons, villages, and special structures that feel like designed set pieces. These areas often contain lore hints, rare loot, or boss arenas and help the cave system feel more alive than a purely random tunnel network.</p>
+                <hr>
+            </div>
+            
+            <div class="container">
+                <div>
+                    <h2 id="general"><u>General</u></h2>
+                    <div class="item">
+                        <div class="item-img-box"><img src="resources/The_Core.png" alt="The World Core"></div>
+                        <div class="img-description">
+                            <p>
+                                <strong id="the-world-core">The World Core</strong> is a major structure in Core Keeper. It is one of, if not the most important structure in the entire game, and as such also serves as the game's icon.
+                            </p>
+
+                            <p>
+                                Core is located in the very center of each world and is where all players start the game. In the beginning, it will be in a state of disrepair and must be fixed by the player by defeating the three mandatory bosses - Glurch the Abominous Mass, Ghorm the Devourer, and Malugaz the Corrupted.
+                            </p>
+
+                            <p>
+                                Interacting with the Core before it is activated will do nothing and make a failure sound.
+                            </p>
+                            <p>
+                                Symbols of The Core can be found all across the world of Core Keeper. Not much is known about it currently, and there appears to be a lot of mystery around its purpose and existence, but several locations, items, and tools seem to imply that it may have been revered by the once-thriving civilization located throughout the underground world. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img-box"><img src="resources/World_Map.png" alt="The World Map"></div>
+                        <div class="img-description">
+                            <p>
+                                <strong id="core-keeper-worlds">Core Keeper worlds</strong> are canonically subterranean environments for players to explore, starting from The Core in the centre. The outer reaches are theoretically infinite, within the top-down two dimensional plane. 
+                            </p>
+
+                            <p>
+                                Each new world has major attributes set by a hidden randomised seed value, like biome rotation and exact boss spawn locations. Other more minor features, including most scenes, are randomly spawned around players as they explore. While most terrain and objects are procedurally generated.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div>
+                    <h2 id="biomes"><u>Biomes</u></h2>
+                    <div class="item">
+                        <div class="item-img-box"><img src="resources/The_Undergrounds.png" alt="The Undergrounds"></div>
+                        <div class="img-description">
+                            <p>
+                                <strong id="the-undergrounds">The Undergrounds</strong> is the first region the player will encounter upon entering a world. It houses the Core, where the player initially spawns. This biome signifies its shallow depth through the presence of dirt, turf, and sand. Ancient structures, such as gates and pillars, may also be found here. As the player moves away from The Core, it will become apparent that this area is index to the Orange and Red Slime Enemies, causing some parts of the biome to be covered in Orange Ground Slime. The Slime sub-biome that contains Glurch the Abominous Mass may be found at a certain point in a random direction from The Core.
+                            </p>
+                            <p>
+                                <strong id="major-blocks1">Major Blocks: </strong> Dirt Block, Ground Slime, Sand Block, Turf Block, Copper Ore
+                            </p>
+                            <p>
+                                <a href="enemies.html"><strong id="enemies1">Enemies:</strong></a> 
+                                Shrooman, Shrooman Brute, Orange Slime, Red Slime, Glurch the Abominous Mass
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img-box"><img src="resources/Clay_Caves.jpg" alt="The Clay Caves"></div>
+                        <div class="img-description">
+                            <p>
+                                <strong id="the-clay-caves">The Clay Caves</strong> are one of the two biomes directly outside of the Undergrounds. These caves are notably inhospitable due to the constantly spawning Larva Enemies from the Chrysalis ground tile. Fiber and Tin Ore are common here, making way for Crafting advancement. This is one of the first areas in Core Keeper to introduce Ore Deposits, requiring a Drill to excavate. Around the edge of the biome is where Larva Hive sub-biomes will generate, one of which will contain the Hive Mother. 
+                            </p>
+                            <p>
+                                Spawns on the opposite side of the map from The Forgotten Ruins.
+                            </p>
+                            <p>
+                                <strong id="major-blocks2">Major Blocks: </strong>Clay Block, Larva Hive Block, Chrysalis, Hive Spike Traps, Ground Acid Slime, Tin Ore, Sand Block.
+                            </p>
+                            <p>
+                                <a href="enemies.html"><strong id="enemies2">Enemies:</strong></a> 
+                                Caveling Skirmisher, Caveling Spearman, cocoon, Larva, Big Larva, Crawler Larva, The Hive Mother, Clay Burrower
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img-box"><img src="resources/The_Forgotten_Ruins.jpg" alt="The Forgotten Ruines"></div>
+                        <div class="img-description">
+                            <p>
+                                <strong id="the-forgotten-ruins">The Forgotten Ruins</strong> are the other biome orbiting just outside of the Undergrounds. A Mining power of 110 or higher is required to damage the iconic Stone Block walls of the ruins. The Caveling inhabitants are especially dangerous, and caution must be exercised while exploring their lost cities. Somewhere in this biome lies Malugaz the Corrupted's throne room, and giant Mazes that can contain a Clear Gemstone. 
+                            </p>
+                            <p>
+                                Spawns on the opposite side of the map from The Clay Caves.
+                            </p>
+                            <p>
+                                <strong id="major-blocks3">Major Blocks: </strong>Stone Block, Sand Block, Iron Ore.
+                            </p>
+                            <p>
+                                <a href="enemies.html"><strong id="enemies3">Enemies:</strong></a> 
+                                Caveling, Caveling Shaman, Caveling Brute, Malugaz the Corrupted.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img-box"><img src="resources/Azeos_Wilderness.png" alt="Azeos' Wilderness"></div>
+                        <div class="img-description">
+                            <p>
+                                <strong id="azeos-wilderness">Azeos' Wilderness </strong>is a grassy overworld-type biome which contains 3 bosses: Azeos the Sky Titan, Ivy the Poisonous Mass,and Druidra the Wild Titan. Reaching this biome requires multiple things, the first step is killing all three of the previous bosses, then talk to the Core, which will give you the ability to take down the Great Wall. After that you will be able to find it by going in the right direction, talk to the Core in the spawn area and it will have a line of dialogue saying: "The flourishing wilderness where Azeos resides is in the: North / Northeast / East / Southeast / South / Southwest / West / Northwest". 
+                            </p>
+                            <p>
+                                <strong id="major-blocks4">Major Blocks: </strong>Grass Block, Lush Moss, Lush Tree, Tall Grass, Bush, Scarlet Ore. 
+                            </p>
+                            <p>
+                                <a href="enemies.html"><strong id="enemies4">Enemies:</strong></a> 
+                                Caveling Gardener, Snare Plant, Caveling Hunter, Poison Slime, Mold Tentacle, Infected Caveling, Azeos the Sky Titan, Ivy the Poisonous Mass, Druidra the Wild Titan, Floracada. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img-box"><img src="resources/The_Sunken_Sea.jpg" alt="The Sunken Sea"></div>
+                        <div class="img-description">
+                            <p>
+                                <strong id="the-sunken-sea">The Sunken Sea</strong> is the fifth area of the game, after Azeos' Wilderness. This biome represents an underground ocean where the player can meet Omoroth the Sea Titan, Morpha the Aquatic Mass, Crydra the Ice Titan, Atlantean Worm, and randomly generated dungeon-type structures, called Forlorn Metropolis. Forlorn Metropolis are considered as a sub-biome of the Sunken Sea. Crafting boats is heavily encouraged to progress here. You can access The Sunken Sea by activating the three Statues around The Core, which gives you the ability to take down the Great Wall blocking the way. To know which direction the biome is in, talk to the Core in the spawn area and it will have a line of dialogue saying: "The sunken sea in which Omoroth resides can be found to the North / Northeast / East / Southeast / South / Southwest / West / Northwest". 
+                            </p>
+                            <p>
+                                <strong id="major-blocks5">Major Blocks:</strong> Beach Block, Ground Slippery Slime, Kelp Tree, Tall Land Kelp, Land Kelp, Octarine Ore. 
+                            </p>
+                            <p>
+                                <a href="enemies.html"><strong id="enemies5">Enemies:</strong></a> 
+                                 Tentacle, Blue Slime, Bubble Crab, Core Sentry, Caveling Scholar, Omoroth the Sea Titan, Morpha the Aquatic Mass, Crydra the Ice Titan, Atlantean Worm. 
+                            </p>
+                        </div>
+                    </div>
+
+                     <div class="item">
+                        <div class="item-img-box"><img src="resources/The_Desert_of_Beginnings.jpg" alt="The Desert of Beginnings"></div>
+                        <div class="img-description">
+                            <p>
+                                <strong id="the-desert-of-beginnings">The Desert of Beginnings</strong> is the last area the player is required to visit to complete the main story. It is a desert-themed biome, where the player can find 5 bosses: Ra-Akar the Sand Titan, Igneous the Molten Mass, Pyrdra the Fire Titan, Core Commander, and Nimruza, Queen of the Burrowed Sands. The desert also contains two randomly generated types of sub-biomes, Molten Quarry and Oasis, and many unique scenes. Accessing this biome will enable the player to craft Go-Karts. The player can access The Desert of Beginnings by activating the three Statues around The Core, which gives the ability to take down the Great Wall blocking the way. To know which direction the biome is in, talk to the Core in the spawn area and it will have a line of dialogue saying: "The desert of beginnings in which Ra-Akar resides can be found to the North / Northeast / East / Southeast / South / Southwest / West / Northwest".
+                            </p>
+                            <p>
+                                <strong id="major-blocks6">Major Blocks:</strong> Desert Block, Plume Tree, Valley Moss, Small Desert Rock, Temple Pillar, Desert Rock, Galaxite Ore.
+                            </p>
+                            <p>
+                                <a href="enemies.html"><strong id="enemies6">Enemies:</strong></a> 
+                                 Caveling Assassin, Caveling Mummy, Bomb Scarab, Ra-Akar the Sand Titan, Lava Slime, Lava Butterfly, Igneous the Molten Mass, Pyrdra the Fire Titan, Core Commander, Gold Scarab, Cicada Nymph, Nimruza, Queen of the Burrowed Sands.
+                            </p>
+                        </div>
+                    </div>
+                    <hr >
+                </div>
+
+                <div>
+                    <h2 id="scenes"><u>Scenes</u></h2>
+                        <div id="scene-description">
+                            <p>
+                                <strong>Scenes</strong> are structures that contain unique scenery, loot and/or creatures.
+                            </p>
+                            <p>
+                                Unlike dungeons, their design is pre-set and will always be the same in every world (besides sometimes being randomly flipped horizontally and/or vertically). 
+                            </p>
+                            <p>The following pictures show examples of scenes:</p>
+                        </div>
+
+                        <div class="grid-container">
+                                <div class="grid-item"><img src="resources/Scene_Amber_Larva.png" alt="Amber Larva Scene"> </div>
+                                <div class="grid-item"><img src="resources/Scene_Mysterious_Doll_Set_Shrine.png" alt="Mysterious Doll Set Shrine"> </div>
+                                <div class="grid-item"><img src="resources/Scene_Chipped_Blade_Temple.png" alt="Chipped Blade Temple"> </div>
+                                <div class="grid-item"><img src="resources/Scene_Desert_Maze_Dungeon_King.png" alt="Desert Maze Dungeon, King-type"> </div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <p><strong>Contact Us</strong></p>
+            <p>
+                Email: core.keeper@gmail.com
+                <br>
+                Phone: 123456789
+            </p>
+            <p>
+                Address: 1 Rue du Pont, 6471 Echternach
+            </p>
+                <br>
+            <p>
+                <small>Information compiled and adapted from the 
+                    <a class="footer-link" href="https://core-keeper.fandom.com/wiki/Core_Keeper_Wiki">Core Keeper Fandom</a>, the
+                    <a class="footer-link" href="https://en.wikipedia.org/wiki/Core_Keeper">Core Keeper Wikipedia</a> and the
+                    <a class="footer-link" href="https://corekeeper.atma.gg/en/Core_Keeper_Wiki">Core Keeper Wiki</a>
+                     under fair use for educational and fan purposes.
+                </small></p>
+            <p>
+                <small>© 2025 CoreGuides.net — Unofficial fan project. All trademarks are property of their respective owners.</small>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

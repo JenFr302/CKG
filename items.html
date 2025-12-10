@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+    <link rel="stylesheet" href="items.css">
+</head>
+<body>
+    
+    <header>
+        <h1>The Items</h1>
+    </header>
+
+    <nav>
+        <a href="index.html"><strong>index</strong></a>
+        <a href="enemies.html"><strong>Enemies</strong></a>
+        <a href="world.html"><strong>World</strong></a>
+    </nav>
+
+<div class="layout">
+
+        <aside id="sidebar">
+            <div id="table_of_contents">
+                <h2>Table of Contents</h2>
+                <ul>
+                    <li type="1">
+                        <a href="#weapons">Weapons</a>
+                        <ul>
+                            <li><a href="#weapons_table">Weapons Table</a></li>
+                        </ul>
+                        <li type="1"><a href="#tools">Tools</a></li>
+                        <ul>
+                            <li><a href="#tools_table">Tools Table</a></li>
+                        </ul>
+                </ul >
+            </div>
+        </aside>
+
+    <main>
+       <section>
+            <h2 id="weapons">Weapons</h2>
+                <p>Weapons are offensive items designed for defeating enemies during combat. They can either be melee (close combat), range (far combat), magic or summon. Every weapon comes with a base "damage" stat, which may be increased via stat boosting items, such as certain armor, accessories or consumables.</p>
+                <br>
+                <p>Weapons can be used by equipping them to a hotbar slot, and pressing Attack. Some of them also come with a secondary use, activated by holding Use item.</p>
+                <br>
+                <p>Weapons can come from various sources, such as crafting or enemy drops.</p>
+                <br>
+            <div class="weapon_table">
+                <table>
+                <caption><h1 id="weapons_table">Weapons</h1></caption>
+
+                <tr>
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Lvl</th>
+                    <th>Damage</th>
+                    <th>Durability</th>
+                    <th>Effects</th>
+                </tr>
+
+                <tr>
+                    <td><div class="item-img-box"><img src="resources/Copper_Sword.png" alt="Copper Sword"></div></td>
+                    <td>Copper sword</td>
+                    <td>1</td>
+                    <td>30-36</td>
+                    <td>88</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><div class="item-img-box"><img src="resources/Slingshot.png" alt="Slingshot"></div></td>
+                    <td>Slingshot</td>
+                    <td>5</td>
+                    <td>53-63</td>
+                    <td>300</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><div class="item-img-box"><img src="resources/Simple_Staff.png" alt="Simple Staff"></div></td>
+                    <td>Simple Staff</td>
+                    <td>2</td>
+                    <td>62-74</td>
+                    <td>255</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><div class="item-img-box"><img src="resources/Rusty_Dagger.png" alt="Rusty Dagger"></div></td>
+                    <td>Rusty Dagger</td>
+                    <td>3</td>
+                    <td>49-59</td>
+                    <td>233</td>
+                    <td></td>
+                </tr>
+        </section>
+
+        <section2>
+
+            <h2 id="tools">Tools</h2>
+            <p>Tools are used by having them selected in a hot-bar slot, then pressing the use key binding to apply their specific effect to the highlighted tile(s). Except for Pickaxes, which function more like Melee Weapons, simply using attack.</p>
+            <p>Most types suffer durability loss, with use, so must be periodically replaced or repaired (cheaper) at the Salvage and Repair Station. Here, they can also be Reinforced, to greatly increase their durability and slightly augment their stats.</p>
+            <div class="tools_table">
+
+            <table>
+                <caption><h1 id="tools_table">Tools</h1></caption>
+                <tr>
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Lvl</th>
+                    <th>Damage</th>
+                    <th>Durability</th>
+                    <th>Effects</th>
+                </tr>
+
+                <tr>
+                    <td><div class="item-img-box"><img src="resources/Copper_Pickaxe.png" alt="Copper_Pickaxe"></div></td>
+                    <td>Copper Pickaxe</td>
+                    <td>2</td>
+                    <td>26-30</td>
+                    <td>200</td>
+                    <td>+15 mining damage</td>
+                </tr>
+
+                <tr>
+                    <td><div class="item-img-box"><img src="resources/Wood_Shovel.png" alt="Wood Shovel"></div></td>
+                    <td>Slingshot</td>
+                    <td>5</td>
+                    <td>53-63</td>
+                    <td>300</td>
+                    <td>+20 mining damage</td>
+                </tr>
+
+                <tr>
+                    <td><div class="item-img-box"><img src="resources/Copper_Sledge_Hammer.png" alt="Copper Sledge Hammer"></div></td>
+                    <td>Simple Staff</td>
+                    <td>2</td>
+                    <td>62-74</td>
+                    <td>255</td>
+                    <td>+23 mining damage</td>
+                </tr>
+
+                <tr>
+                    <td><div class="item-img-box"><img src="resources/Hand_Drill.png" alt="Hand Drill"></div></td>
+                    <td>Rusty Dagger</td>
+                    <td>3</td>
+                    <td>49-59</td>
+                    <td>233</td>
+                    <td>+85 mining damage</td>
+                </tr>
+            </table>
+
+        </section2>
+     </main>
+</div>
+
+    <footer>
+        <div class="footer-content">
+            <p><strong>Contact Us</strong></p>
+            <p>
+                Email: core.keeper@gmail.com
+                <br>
+                Phone: 123456789
+            </p>
+            <p>
+                Address: 1 Rue du Pont, 6471 Echternach
+            </p>
+                <br>
+            <p>
+                <small>Information compiled and adapted from the 
+                    <a class="footer-link" href="https://core-keeper.fandom.com/wiki/Core_Keeper_Wiki">Core Keeper Fandom</a>, the
+                    <a class="footer-link" href="https://en.wikipedia.org/wiki/Core_Keeper">Core Keeper Wikipedia</a> and the
+                    <a class="footer-link" href="https://corekeeper.atma.gg/en/Core_Keeper_Wiki">Core Keeper Wiki</a>
+                     under fair use for educational and fan purposes.
+                </small></p>
+            <p>
+                <small>© 2025 CoreGuides.net — Unofficial fan project. All trademarks are property of their respective owners.</small>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

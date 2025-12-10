@@ -1,0 +1,195 @@
+.weapon_table table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fdc57b;
+}
+
+.weapon_table th,
+.weapon_table td {
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.weapon_table tr:hover {
+  background-color: #b68545;
+}
+
+.weapon_table caption {
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.tools_table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.tools_table th,
+.tools_table td {
+  border: 2px solid #000000; 
+  padding: 10px;
+  text-align: center;
+  background-color: #fdc57b;
+}
+
+.tools_table tr:hover {
+  background-color: #b68545;
+}
+
+.tools_table caption {
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+footer {
+ border: 2px solid #000000;
+ margin-top: 10px;
+ text-align: center;
+}
+
+section p {
+ border: 2px solid #000000;
+ text-align: center;
+ padding: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbf2d5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #394a51;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ccc;
+  border-radius: 7px;
+}
+
+nav a:hover {
+  color: orangered;
+}
+
+.layout {
+  display: flex;
+  align-items: stretch;
+}
+
+main {
+  flex: 1;
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 0%;
+}
+
+main h2 {
+  margin-top: 40px;
+}
+
+.item {
+  background: #fdc57b;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-img-box {
+  width: 250px auto;
+  height: 250px auto;
+  background: #fdc57b;
+  border-radius: 4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.item-img-box img {
+  width: 100% auto;
+  height: 100% auto;
+  object-fit: cover;
+}
+
+.img-description {
+  padding: 10px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 350px 350px;
+  max-width: 1000px;
+}
+
+.grid-item {
+  background-color: #fdc57b;
+  border: black;
+  padding: 30px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+}
+
+#sidebar {
+  width: 20%;
+  max-height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: sticky;
+  top: 10px;
+  background-color: #7fa99b;
+}
+
+#table_of_contents {
+  padding: 20px;
+  position:fixed;
+}
+
+#table_of_contents a:hover {
+  color: orangered;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    width: 100%;
+  }
+}
+
+.footer-content {
+  background-color: #333;
+  color: #ccc;
+  border-top: 3px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+.footer-link {
+color: white;
+}
+.footer-link:hover {
+color: cyan;
+}
